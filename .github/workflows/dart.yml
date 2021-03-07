@@ -26,6 +26,4 @@ jobs:
         with:
           channel: stable # or: 'beta' or 'dev'
       - run: flutter pub get
-      - run: flutter build apk -t lib/main_prod.dart
-      - run: flutter test
       - run: flutter build apk
